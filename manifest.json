@@ -1,0 +1,20 @@
+{
+  "name": "Quant Aptitude Tutor",
+  "short_name": "Quant Tutor",
+  "start_url": "/quant-tutor/",
+  "display": "standalone",
+  "background_color": "#F8FAFC",
+  "theme_color": "#10B981",
+  "icons": [
+    {
+      "src": "https://www.google.com/s2/favicons?sz=192&domain=math.com",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://www.google.com/s2/favicons?sz=512&domain=math.com",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
