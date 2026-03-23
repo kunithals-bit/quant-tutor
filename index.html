@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <link rel="manifest" href="/quant-tutor/manifest.json" />
+    
+    <link rel="icon" type="image/png" href="./icon.png" />
+    <link rel="apple-touch-icon" href="./icon.png" />
+    
+    <link rel="manifest" href="./manifest.json" />
     <title>Quant Tutor</title>
     <script type="module" crossorigin src="/quant-tutor/assets/index-Bkvfo7AT.js"></script>
     <link rel="stylesheet" crossorigin href="/quant-tutor/assets/index-nqMpL4T3.css">
@@ -13,7 +17,7 @@
     <script>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/quant-tutor/sw.js');
+          navigator.serviceWorker.register('./sw.js');
         });
       }
     </script>

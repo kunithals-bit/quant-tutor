@@ -1,13 +1,13 @@
-const CACHE_NAME = 'quant-tutor-v2';
+const CACHE_NAME = 'quant-tutor-v3';
 
 // Install the service worker and cache the app
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
       return cache.addAll([
-        '/quant-tutor/',
-        '/quant-tutor/index.html',
-        '/quant-tutor/manifest.json'
+        './',
+        './index.html',
+        './manifest.json'
       ]);
     })
   );
