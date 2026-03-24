@@ -1,6 +1,6 @@
 {
-  "name": "Quant Aptitude Tutor",
-  "short_name": "Quant Tutor",
+  "name": "numa",
+  "short_name": "numa",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#F8FAFC",
