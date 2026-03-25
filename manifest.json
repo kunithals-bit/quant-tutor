@@ -3,8 +3,8 @@
   "short_name": "numa",
   "start_url": ".",
   "display": "standalone",
-  "background_color": "#F8FAFC",
-  "theme_color": "#10B981",
+  "background_color": "#202124",
+  "theme_color": "#202124",
   "icons": [
     {
       "src": "./icon.png",
